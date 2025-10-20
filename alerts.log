@@ -1,0 +1,442 @@
+{"timestamp": "2025-10-20T12:31:03.363855Z", "category": "failed_login", "message": "Multiple failed logins detected for user bob: 3 failures in 5 minutes."}
+{"timestamp": "2025-10-20T12:31:03.364844Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:31:03.365150Z", "category": "failed_login", "message": "Multiple failed logins detected for user carol: 3 failures in 5 minutes."}
+{"timestamp": "2025-10-20T12:31:03.365631Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:31:03.366244Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:31:03.366591Z", "category": "anomaly", "message": "Anomalous activity: 10 events at 2025-10-19T10:10:00 (avg=2.00, stddev=2.45)"}
+{"timestamp": "2025-10-20T12:32:21.985500Z", "category": "failed_login", "message": "Multiple failed logins detected for user bob: 3 failures in 5 minutes."}
+{"timestamp": "2025-10-20T12:32:21.985874Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:32:21.986560Z", "category": "failed_login", "message": "Multiple failed logins detected for user carol: 3 failures in 5 minutes."}
+{"timestamp": "2025-10-20T12:32:21.987046Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:32:21.987390Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:32:21.988163Z", "category": "anomaly", "message": "Anomalous activity: 10 events at 2025-10-19T10:10:00 (avg=2.00, stddev=2.45)"}
+{"timestamp": "2025-10-20T12:32:44.809371Z", "category": "failed_login", "message": "Multiple failed logins detected for user bob: 3 failures in 5 minutes."}
+{"timestamp": "2025-10-20T12:32:44.809628Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:32:44.810036Z", "category": "failed_login", "message": "Multiple failed logins detected for user carol: 3 failures in 5 minutes."}
+{"timestamp": "2025-10-20T12:32:44.810102Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:32:44.810315Z", "category": "anomaly", "message": "Anomalous activity: 10 events at 2025-10-19T10:10:00 (avg=2.00, stddev=2.45)"}
+{"timestamp": "2025-10-20T12:32:54.394156Z", "category": "failed_login", "message": "Multiple failed logins detected for user bob: 3 failures in 5 minutes."}
+{"timestamp": "2025-10-20T12:32:54.394671Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:32:54.395388Z", "category": "failed_login", "message": "Multiple failed logins detected for user carol: 3 failures in 5 minutes."}
+{"timestamp": "2025-10-20T12:32:54.395760Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:32:54.396120Z", "category": "anomaly", "message": "Anomalous activity: 10 events at 2025-10-19T10:10:00 (avg=2.00, stddev=2.45)"}
+{"timestamp": "2025-10-20T12:35:09.470312Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:35:09.470723Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:35:09.471252Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:09.471486Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:09.471785Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:35:09.472136Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:35:09.472575Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:09.472954Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:09.473572Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:09.473710Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:35:09.473900Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:09.474361Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:35:09.474744Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:35:09.475230Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:35:09.475466Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:09.475931Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:35:09.476343Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:09.476584Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:09.476913Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:09.477206Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:35:09.477592Z", "category": "anomaly", "message": "Anomalous activity: 10 events at 2025-10-20T12:39:00 (avg=5.00, stddev=2.37)"}
+{"timestamp": "2025-10-20T12:35:51.313793Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:51.314533Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:51.314851Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:35:51.315151Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:35:51.315453Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:35:51.316074Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:35:51.316399Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:35:51.316662Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:51.317031Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:35:51.317558Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:51.318105Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:51.318452Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:35:51.318806Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:35:51.319200Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:35:51.319449Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:35:51.319708Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:35:51.320111Z", "category": "anomaly", "message": "Anomalous activity: 9 events at 2025-10-20T12:43:00 (avg=5.00, stddev=1.95)"}
+{"timestamp": "2025-10-20T12:41:37.307969Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:41:37.308351Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:37.308977Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:41:37.309295Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:41:37.309588Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:37.310055Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:41:37.310150Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:37.310479Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:41:37.310746Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:37.311193Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:37.311555Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:41:37.311790Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:41:37.312268Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:41:37.312678Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:41:40.394030Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:40.394615Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:41:40.395157Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:40.395683Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:40.396237Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:41:40.396446Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:41:40.397051Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:40.397361Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:41:40.397581Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:41:40.398195Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:40.398515Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:41:41.860719Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:41.861438Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:41:41.861887Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:41.862433Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:41.862902Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:41:41.863339Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:41:41.863867Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:41.864209Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:41:41.864633Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:41:41.865133Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:41.865401Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:41:44.208014Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:44.208741Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:41:44.209334Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:41:44.210019Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:44.210412Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:41:44.210643Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:41:44.211014Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:41:44.211327Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:44.211696Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:41:44.212213Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:41:44.212480Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:44.212988Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:44.213354Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:41:44.214019Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:44.214255Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:44.214570Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:41:44.214825Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:41:52.436112Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:52.436679Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:52.437230Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:41:52.437543Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:41:52.437960Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:41:52.438401Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:41:52.438800Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:41:52.439042Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:41:52.439403Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:52.439889Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:41:52.440007Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:52.440438Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:41:52.440779Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:41:56.126538Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:56.127062Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:41:56.127548Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:56.128085Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:56.128294Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:41:56.128788Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:41:56.129140Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:41:56.129542Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:56.129881Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:41:56.130328Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:41:56.130740Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:41:56.131288Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:41:56.131584Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:41:56.131770Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:41:56.132143Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:41:56.132572Z", "category": "anomaly", "message": "Anomalous activity: 9 events at 2025-10-20T12:51:00 (avg=4.55, stddev=2.10)"}
+{"timestamp": "2025-10-20T12:47:01.713008Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:01.713823Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:01.714281Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:47:01.714676Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:01.715267Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:01.715991Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:01.716446Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:47:01.716724Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:47:01.717231Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:47:01.717741Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:01.718494Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:47:01.719054Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:01.719527Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:47:01.719960Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:47:01.720596Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:47:01.721129Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:01.721542Z", "category": "anomaly", "message": "Anomalous activity: 10 events at 2025-10-20T12:54:00 (avg=5.00, stddev=2.37)"}
+{"timestamp": "2025-10-20T12:47:04.879817Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:04.880165Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:04.880675Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:47:04.881280Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:04.881471Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:04.881902Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:04.882556Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:47:04.882748Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:47:04.883333Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T12:47:04.883768Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:04.883953Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:47:04.884293Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:04.884805Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:47:04.885197Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:47:04.885679Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:47:04.886064Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:04.886566Z", "category": "anomaly", "message": "Anomalous activity: 10 events at 2025-10-20T12:54:00 (avg=5.00, stddev=2.37)"}
+{"timestamp": "2025-10-20T12:47:06.379711Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:06.380393Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:47:06.380889Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:47:06.381302Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:06.381609Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:47:06.382048Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:06.382489Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:06.382848Z", "category": "failed_login", "message": "Multiple failed logins detected for user bob: 3 failures in 5 minutes."}
+{"timestamp": "2025-10-20T12:47:06.383034Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:47:06.383459Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:06.383922Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:06.384376Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:06.384719Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:47:06.384988Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:47:06.385729Z", "category": "anomaly", "message": "Anomalous activity: 9 events at 2025-10-20T12:54:00 (avg=4.55, stddev=1.92)"}
+{"timestamp": "2025-10-20T12:47:09.504463Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:09.505062Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:47:09.505700Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:47:09.506000Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:09.506246Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:47:09.506975Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:09.507269Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:09.507959Z", "category": "failed_login", "message": "Multiple failed logins detected for user bob: 3 failures in 5 minutes."}
+{"timestamp": "2025-10-20T12:47:09.508249Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:47:09.508435Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:09.509029Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:09.509416Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:09.509747Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:47:09.509972Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:47:09.510666Z", "category": "anomaly", "message": "Anomalous activity: 9 events at 2025-10-20T12:54:00 (avg=4.55, stddev=1.92)"}
+{"timestamp": "2025-10-20T12:47:11.928724Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:11.929330Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:11.929888Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T12:47:11.930142Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:47:11.930602Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T12:47:11.931073Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:11.931246Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:11.932059Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:47:11.932380Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T12:47:11.933104Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:47:11.933511Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T12:47:11.933922Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T12:47:11.934444Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:11.934925Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:11.935302Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T12:47:11.935567Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T12:47:11.936068Z", "category": "anomaly", "message": "Anomalous activity: 9 events at 2025-10-20T12:48:00 (avg=4.55, stddev=2.06)"}
+{"timestamp": "2025-10-20T13:11:43.875315Z", "category": "example_category", "message": "example message"}
+{"timestamp": "2025-10-20T13:14:05.712427Z", "category": "example_category", "message": "example message"}
+{"timestamp": "2025-10-20T20:50:11.715167Z", "category": "example_category", "message": "example message"}
+{"timestamp": "2025-10-20T21:03:44.958415Z", "category": "example_category", "message": "example message"}
+{"timestamp": "2025-10-20T21:08:09.485219Z", "category": "example_category", "message": "example message"}
+{"timestamp": "2025-10-20T21:09:16.231284Z", "category": "example_category", "message": "example message"}
+{"timestamp": "2025-10-20T21:14:54.530435Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T21:14:54.601210Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:14:54.659687Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:14:54.721526Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T21:14:54.776266Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:14:54.834489Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T21:14:54.891017Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:14:54.945378Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:14:54.985468Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:14:55.023822Z", "category": "anomaly", "message": "anomaly message"}
+{"timestamp": "2025-10-20T21:21:01.268956Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:21:01.299346Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:21:01.327580Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T21:21:01.351467Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:21:01.376562Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:21:01.406086Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:21:01.432034Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T21:21:01.459854Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T21:21:01.487158Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:21:01.511079Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:21:01.537227Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:21:01.564246Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:21:01.593654Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:21:01.621912Z", "category": "anomaly", "message": "anomaly message"}
+{"timestamp": "2025-10-20T21:24:34.568324Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T21:24:34.595992Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T21:24:34.624356Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:24:34.652272Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:24:34.683823Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:24:34.698480Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T21:24:34.729077Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:24:34.768702Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:24:34.794690Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T21:24:34.824820Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:24:34.857633Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T21:24:34.894252Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:24:34.929850Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T21:24:34.960548Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:24:34.994727Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:24:35.037095Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:24:35.068343Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:24:35.097966Z", "category": "anomaly", "message": "anomaly message"}
+{"timestamp": "2025-10-20T21:25:41.464470Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T21:25:41.574477Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T21:25:41.633956Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:25:41.707246Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:25:41.829465Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:25:41.954717Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T21:25:42.057658Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:25:42.146538Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:25:42.233413Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T21:25:42.290741Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:25:42.348509Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T21:25:42.397351Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:25:42.460774Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T21:25:42.499627Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:25:42.553482Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:25:42.601245Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:25:42.647321Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:25:42.701506Z", "category": "anomaly", "message": "anomaly message"}
+{"timestamp": "2025-10-20T21:28:00.554144Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user bob"}
+{"timestamp": "2025-10-20T21:28:00.659478Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T21:28:00.794655Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:28:00.915344Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:28:01.071734Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:28:01.245857Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T21:28:01.384849Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:28:01.514385Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:28:01.625413Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T21:28:01.783370Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:28:01.921096Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T21:28:02.063356Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:28:02.218161Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T21:28:02.356201Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:28:02.443926Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:28:02.580784Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:28:02.764121Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:28:02.917449Z", "category": "anomaly", "message": "anomaly message"}
+{"timestamp": "2025-10-20T21:30:42.469180Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:30:42.613347Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T21:30:42.736321Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:30:42.852073Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:30:42.944920Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:30:43.101278Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:30:43.236766Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:30:43.340728Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:30:43.443936Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:30:43.543418Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:30:43.661002Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:30:43.762164Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T21:30:43.880949Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:30:44.030288Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T21:30:44.343400Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T21:30:44.648003Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:30:44.854227Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:30:45.046387Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T21:30:45.224017Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T21:30:45.370867Z", "category": "anomaly", "message": "anomaly message"}
+{"timestamp": "2025-10-20T21:37:12.055283Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:37:12.079003Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T21:37:12.107440Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:37:12.135186Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:37:12.169697Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:37:12.197786Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:37:12.242530Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:37:12.273518Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T21:37:12.298441Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:37:12.330067Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:37:12.358197Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:37:12.394358Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T21:37:12.426747Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:37:12.460783Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T21:37:12.484569Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T21:37:12.514072Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T21:37:12.540942Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T21:37:12.576756Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T21:37:12.625385Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T21:37:12.645198Z", "category": "anomaly", "message": "anomaly message"}
+{"timestamp": "2025-10-20T22:03:20.125734Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:03:20.158339Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user erin"}
+{"timestamp": "2025-10-20T22:03:20.187813Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:03:20.204331Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:03:20.227095Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T22:03:20.245818Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T22:03:20.266882Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:03:20.278529Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T22:03:20.296207Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T22:03:20.329238Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T22:03:20.352470Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:03:20.371780Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T22:03:20.392959Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:03:20.413298Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:03:20.433825Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T22:03:20.527479Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T22:03:20.548196Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:03:20.569547Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:03:20.592267Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T22:03:20.611194Z", "category": "anomaly", "message": "anomaly message"}
+{"timestamp": "2025-10-20T22:04:57.786035Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:04:57.810194Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:04:57.830366Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:04:57.854451Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:04:57.877474Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T22:04:57.898650Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:04:57.922236Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:04:57.947415Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T22:04:57.966459Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:04:57.992388Z", "category": "blocklist", "message": "Blocked IP detected: user=bob, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T22:04:58.017973Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T22:04:58.038264Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T22:04:58.058336Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T22:04:58.081027Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T22:04:58.098403Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user intruder"}
+{"timestamp": "2025-10-20T22:04:58.137619Z", "category": "failed_login", "message": "Multiple failed logins detected for user bob: 3 failures in 5 minutes."}
+{"timestamp": "2025-10-20T22:04:58.166978Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T22:04:58.186619Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T22:04:58.209932Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:04:58.223662Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T22:04:58.241482Z", "category": "anomaly", "message": "anomaly message"}
+{"timestamp": "2025-10-20T22:05:25.682155Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:05:25.711132Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:05:25.731369Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:05:25.753230Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:05:25.772616Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:05:25.792222Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:05:25.811924Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:05:25.841908Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:05:25.880022Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:05:25.920925Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:05:25.948470Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T22:05:25.979321Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:05:26.006508Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T22:05:26.033893Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:05:26.058723Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:05:26.084315Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:05:26.100279Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T22:05:26.126409Z", "category": "anomaly", "message": "anomaly message"}
+{"timestamp": "2025-10-20T22:13:55.154115Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:13:55.196219Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:13:55.238984Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:13:55.261752Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:13:55.289681Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:13:55.322044Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:13:55.350300Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:13:55.374945Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:13:55.406697Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:13:55.428241Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:13:55.457461Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T22:13:55.489755Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:13:55.527923Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T22:13:55.557674Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:13:55.586987Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:13:55.612237Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:13:55.687822Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T22:13:55.724058Z", "category": "anomaly", "message": "anomaly message"}
+{"timestamp": "2025-10-20T22:15:42.119023Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:15:42.173139Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:15:42.224480Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:15:42.254265Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:15:42.280716Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:15:42.307353Z", "category": "blocklist", "message": "Blocked IP detected: user=dave, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:15:42.334770Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:15:42.356756Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:15:42.383997Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user dave"}
+{"timestamp": "2025-10-20T22:15:42.405693Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:15:42.439406Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user alice"}
+{"timestamp": "2025-10-20T22:15:42.462930Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:15:42.487071Z", "category": "blocklist", "message": "Blocked IP detected: user=alice, ip=203.0.113.42, event=login_failure"}
+{"timestamp": "2025-10-20T22:15:42.505657Z", "category": "blocklist", "message": "Blocked IP detected: user=erin, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:15:42.529553Z", "category": "blocklist", "message": "Blocked IP detected: user=intruder, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:15:42.554985Z", "category": "blocklist", "message": "Blocked IP detected: user=carol, ip=203.0.113.42, event=login_success"}
+{"timestamp": "2025-10-20T22:15:42.585046Z", "category": "suspicious_success", "message": "Suspicious login success after failures for user carol"}
+{"timestamp": "2025-10-20T22:15:42.612129Z", "category": "anomaly", "message": "anomaly message"}
