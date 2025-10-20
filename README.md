@@ -22,11 +22,11 @@ https://docs.splunk.com/Documentation/Splunk/latest/Data/UsetheHTTPEventCollecto
 
 **To run the script with the provided sample logs:**
 
-  python3 generate_logs.py && python3 mini_siem.py --logfile sample_logs.txt --live
+     - python3 generate_logs.py && python3 mini_siem.py --logfile sample_logs.txt --live
 
 **To run the "live mode" for the random log generator:**
 
-  while true; do python3 generate_logs.py; sleep 5; done
+     - while true; do python3 generate_logs.py; sleep 5; done
 
 
 
