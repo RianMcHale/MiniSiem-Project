@@ -17,3 +17,16 @@ A small security monitoring simulation and event correlation built with Python. 
 
 2. Set up the HTTP Event Collector:
 https://docs.splunk.com/Documentation/Splunk/latest/Data/UsetheHTTPEventCollector
+
+# How to run the program once everything is ready
+
+**To run the script with the provided sample logs:**
+
+  python3 generate_logs.py && python3 mini_siem.py --logfile sample_logs.txt --live
+
+**To run the "live mode" for the random log generator:**
+
+  while true; do python3 generate_logs.py; sleep 5; done
+
+
+
