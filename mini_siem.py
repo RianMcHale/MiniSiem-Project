@@ -50,15 +50,15 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 import requests
 
 
-""" send events/alerts to a local splunk page using the HTTP event collector"""
+""" send events/alerts to a local splunk page using the HTTP event collector """
 def send_to_splunk(event):
     url = "https://localhost:8088/services/collector"
     token = "YOUR TOKEN HERE"  # local token given by splunk HEC
     headers = {"Authorization": f"Splunk {token}"}
     payload = {"event": event, "sourcetype": "_json", "index": "main"}
     try:
-    	"""send json to splunks HEC listener
-    	verify = false skips SSL validation (works for local tests)"""
+        # send JSON to Splunk’s HEC listener
+        # verify=False skips SSL validation (useful for local testing)
         r = requests.post(url, headers=headers, json=payload, verify=False)
         if r.status_code == 200:
             print("[Splunk] Event forwarded successfully.")
@@ -66,6 +66,7 @@ def send_to_splunk(event):
             print(f"[Splunk] Error {r.status_code}: {r.text}")
     except Exception as e:
         print(f"[!] Failed to send event: {e}")
+
 
 """one line from a log file (parsed, structured)"""
 class LogRecord:
