@@ -48,7 +48,8 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 import requests
-
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 """ send events/alerts to a local splunk page using the HTTP event collector """
 def send_to_splunk(event):
