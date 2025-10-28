@@ -196,11 +196,25 @@ class MiniSIEM:
         with self.alert_file_path.open("a") as f:
             f.write(json.dumps(alert_entry) + "\n")
 
+        # simulate a SOAR response
+        if ip:
+            self._block_ip(ip)
+        if user:
+            self._reset_password(user)
+            self._notify_user(user)
+
         # send alert to splunk
         try:
             send_to_splunk(alert_entry)
         except Exception as e:
             print(f"[!] Splunk forwarding failed: {e}")
+
+    def _block_ip(self, ip: str) -> None:
+        """ simulate blocking a suspicious IP address """
+        blocked_path = Path("blocked_ips.txt")
+        with blocked_path.open("a") as f:
+            f.write(f"{ip}\n")
+        print(f"[SOAR] Blocked IP Address: {ip} (logged to blocked_ips.txt)")
             
 """ open a log file or read from stdin, yields LogREcord objects """
 def read_logs(path: Optional[str]) -> Iterable[LogRecord]:
