@@ -216,6 +216,18 @@ class MiniSIEM:
             f.write(f"{ip}\n")
         print(f"[SOAR] Blocked IP Address: {ip} (logged to blocked_ips.txt)")
             
+    def _reset_password(self, user: str) -> None:
+        """ simulate password resets """
+        reset_entry = {
+            "timestamp": datetime.utcnow().isoformat() + "Z",
+            "user": user,
+            "action": "password_reset",
+            "status": "completed"
+        }
+        with open("user_actions.json", "a") as f:
+            f.write(json.dumps(reset_entry) + "\n")
+        print(f"[SOAR] Password reset for user: {user}")
+
 """ open a log file or read from stdin, yields LogREcord objects """
 def read_logs(path: Optional[str]) -> Iterable[LogRecord]:
 
