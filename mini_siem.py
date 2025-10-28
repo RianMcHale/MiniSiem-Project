@@ -58,7 +58,7 @@ def send_to_splunk(event):
     payload = {"event": event, "sourcetype": "_json", "index": "main"}
     try:
         # send JSON to Splunk’s HEC listener
-        # verify=False skips SSL validation (useful for local testing)
+        # verify = false skips SSL validation 
         r = requests.post(url, headers=headers, json=payload, verify=False)
         if r.status_code == 200:
             print("[Splunk] Event forwarded successfully.")
