@@ -228,6 +228,29 @@ class MiniSIEM:
             f.write(json.dumps(reset_entry) + "\n")
         print(f"[SOAR] Password reset for user: {user}")
 
+        try:
+            send_to_splunk(reset_entry)
+        except Exception as e:
+            print(f"[!] Splunk forwarding failed: {e}")
+
+    def _notify_user(self, user: str) -> None:
+        """ simulate user notifications """
+        notification = {
+            "timestamp": datetime.utcnow().isoformat() + "Z",
+            "user": user,
+            "notification": f"Suspicious activity detected on your account, {user}."
+                            f"Your password has been reset due to this activity.",
+            "delivery_method": "email_simulated"
+        }
+        with open("notifications.json", "a") as f:
+            f.write(json.dumps(notification) + "\n")
+        print(f"[SOAR] Notification logged for user '{user}' (written to notifications.json)")
+        
+        try:
+            send_to_splunk(notification)
+        except Exception as e:
+            print(f"[!] Splunk forwarding failed: {e}")
+
 """ open a log file or read from stdin, yields LogREcord objects """
 def read_logs(path: Optional[str]) -> Iterable[LogRecord]:
 
