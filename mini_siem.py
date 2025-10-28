@@ -279,6 +279,10 @@ def main(argv: Optional[List[str]] = None) -> None:
     
     """ create a minisiem object and start processing log entries """
     siem = MiniSIEM(blocklist=blocklist, alert_file=args.alertfile)
+    for f in ["notifications.json", "user_actions.json"]:
+        open(f, "w").close()
+        print(f"[INIT] Cleared {f}")
+
     siem.process_records(read_logs(args.logfile))
 
 
